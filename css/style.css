@@ -1,18 +1,17 @@
 @font-face {
-  font-family:"Lato-Italic";
-  src: url('../fonts/Lato-Italic.ttf');
+  font-family: "Lato-Italic";
+  src: url("../fonts/Lato-Italic.ttf");
 }
 @font-face {
-  font-family:"Barkentina" ;
-  src: url('../fonts/Barkentina.ttf');
+  font-family: "Barkentina";
+  src: url("../fonts/Barkentina.ttf");
 }
 .word {
   color: yellowgreen;
 }
 .picture {
- border: 3px solid rebeccapurple;
- width: 300px;
-
+  border: 3px solid rebeccapurple;
+  width: 300px;
 }
 .main {
   color: midnightblue;
@@ -79,36 +78,36 @@ h2 {
   border: 5px solid crimson;
 }
 .item-1 {
-    background-color: rgb(221, 119, 119);
+  background-color: rgb(241, 121, 121);
 }
 
 .item-2 {
-    background-color: rgb(136, 231, 151);
+  background-color: rgb(133, 231, 150);
 }
 
 .item-3 {
-    background-color: rgb(124, 122, 231);
+  background-color: rgb(83, 81, 206);
 }
 
 .item-4 {
-    background-color: rgb(71, 73, 38);
+  background-color: rgb(143, 10, 121);
 }
 
 .item-5 {
-    background-color: rgb(0, 137, 155);
+  background-color: rgb(130, 151, 9);
 }
 .grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 2vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 2vw;
 }
 .grid-item {
-    min-height: 100px;
+  min-height: 100px;
 }
 .zagolovki {
-font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
 }
 .prostotekst {
-  font-family: Lato-Italic, 'Times New Roman', serif;
+  font-family: Lato-Italic, "Times New Roman", serif;
 }
