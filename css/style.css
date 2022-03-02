@@ -1,0 +1,114 @@
+@font-face {
+  font-family:"Lato-Italic";
+  src: url('../fonts/Lato-Italic.ttf');
+}
+@font-face {
+  font-family:"Barkentina" ;
+  src: url('../fonts/Barkentina.ttf');
+}
+.word {
+  color: yellowgreen;
+}
+.picture {
+ border: 3px solid rebeccapurple;
+ width: 300px;
+
+}
+.main {
+  color: midnightblue;
+  text-align: center;
+  background-color: salmon;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutdiv {
+  color: blueviolet;
+}
+.question1 {
+  background-color: rgb(163, 235, 194);
+  display: inline;
+}
+.abouta {
+  color: blueviolet;
+}
+.question2 {
+  background-color: rgb(163, 235, 194);
+  display: inline;
+}
+.flex {
+  display: flex;
+}
+
+.flex div {
+  background-color: lightblue;
+  border: 1px solid red;
+}
+.main1 a {
+  color: coral;
+}
+.first a {
+  color: coral;
+}
+.second a {
+  color: coral;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  margin: 0;
+}
+
+.gallery {
+  box-shadow: 5px 5px 10px grey;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.gallery:nth-of-type(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+.gallery:nth-of-type(2n) {
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.gallery > img {
+  width: 200px;
+  border: 5px solid crimson;
+}
+.item-1 {
+    background-color: rgb(161, 48, 48);
+}
+
+.item-2 {
+    background-color: rgb(49, 163, 68);
+}
+
+.item-3 {
+    background-color: rgb(34, 32, 180);
+}
+
+.item-4 {
+    background-color: rgb(207, 219, 29);
+}
+
+.item-5 {
+    background-color: rgb(175, 52, 165);
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 2vw;
+}
+.grid-item {
+    min-height: 100px;
+}
+.zagolovki {
+font-family: Barkentina, 'Times New Roman', serif;
+}
+.prostotekst {
+  font-family: Lato-Italic, 'Times New Roman', serif;
+}
